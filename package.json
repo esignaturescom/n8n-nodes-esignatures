@@ -1,19 +1,19 @@
 {
   "name": "n8n-nodes-<...>",
   "version": "0.1.0",
-  "description": "",
+  "description": "N8n node for eSignatures to automate the contract sending process.",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "eSignatures",
+    "email": "dev@esignatures.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/esignaturescom/n8n-nodes-esignatures.git"
   },
   "engines": {
     "node": ">=18.10",
@@ -55,5 +55,10 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.4",
+    "axios": "^1.7.9",
+    "n8n-core": "^1.14.1"
   }
 }
